@@ -1,0 +1,19 @@
+th,
+td {
+	color: #fff;
+}
+
+th {
+	text-align: left;
+	font-size: 20px;
+}
+
+table {
+	margin: 0px auto;
+	width: 50%;
+}
+
+td>a {
+	color: #aaa;
+	text-decoration: underline;
+}

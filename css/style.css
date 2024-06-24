@@ -1,0 +1,894 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: #161616;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+header .links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header ul li {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+header ul a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+footer {
+  width: 100%;
+  height: 350px;
+  background-color: #12191F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-head {
+  text-align: center;
+}
+
+footer .footer-content {
+  display: flex;
+}
+
+footer .footer-content-bl {
+  margin: 0 20px;
+  width: 300px;
+  height: 140px;
+  background: #171C21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-content-bl>p {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.sliva {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100%;
+  background: url("../img/bg/sliva.png") center center no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliva .opacity-black {
+  width: 50%;
+  padding: 30px 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.71);
+  color: white;
+}
+
+.sliva .opacity-black>h1 {
+  font-size: 40px;
+}
+
+.sliva .opacity-black>p {
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.services {
+  width: 100%;
+  height: 90vh;
+  padding: 0 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/bg/wheels.png") center center no-repeat;
+}
+
+.block {
+  margin: 20px 10px;
+  width: 400px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.block .img-block {
+  width: 100%;
+}
+
+.block .img-block>img {
+  width: 100%;
+}
+
+.block .text-block {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-us-figure {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/bg/skyline.png") center center no-repeat;
+}
+
+.about-us-figure .about-us-figure-head {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+.about-us-figure .about-us-figure-content {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.about-us-figure .about-us-figure-content .about-us-figure-content-bl {
+  width: 25%;
+  text-align: center;
+}
+
+.about-us-figure .about-us-figure-content .about-us-figure-content-bl>h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.about-us-figure .about-us-figure-content .about-us-figure-content-bl>p {
+  font-size: 20px;
+}
+
+.information {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/bg/wheel-re.png") center center no-repeat;
+}
+
+.information .information-head {
+  text-align: center;
+  color: #fff;
+}
+
+.information .information-head>h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.information .information-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.information .information-content .information-content-bl {
+  margin: 0 20px;
+  width: 40%;
+  background-color: #22282E;
+  color: #fff;
+  padding-bottom: 20px;
+  box-shadow: 0px 3px 27px rgba(64, 98, 208, 0.19);
+}
+
+.information .information-content .information-content-bl>img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.information .information-content .information-content-bl>span,
+.information .information-content .information-content-bl p,
+.information .information-content .information-content-bl h4,
+.information .information-content .information-content-bl a {
+  margin: 20px 20px;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+}
+
+.service {
+  padding-top: 150px;
+  width: 100%;
+  background-color: #000000;
+}
+
+.service .service-head {
+  margin-left: 20%;
+  color: #fff;
+}
+
+.service .service-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service .blocks {
+  margin: 40px 40px;
+  width: 400px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.service .blocks .img-block {
+  width: 100%;
+}
+
+.service .blocks .img-block>img {
+  width: 100%;
+}
+
+.service .blocks .text-block {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company {
+  width: 100%;
+  height: 220vh;
+  background: url("../img/bg/black-wheel.png") center center no-repeat;
+}
+
+.company .company-head {
+  padding-top: 150px;
+  color: #fff;
+}
+
+.company .company-head>h1 {
+  margin-left: 15%;
+}
+
+.company .company-content-up {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company .company-content-up .company-content-up-txt {
+  margin: 0 50px;
+  width: 35%;
+  color: #fff;
+  font-weight: 300;
+}
+
+.company .company-content-up .company-content-up-txt>p {
+  margin-top: 15px;
+}
+
+.company .company-down {
+  margin-top: 50px;
+  color: #fff;
+}
+
+.company .company-down>h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.company .company-down .company-down-cont {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.company .company-down .company-down-cont .company-down-bl {
+  width: 25%;
+  text-align: center;
+}
+
+.company .company-down .company-down-cont .company-down-bl>h2 {
+  font-size: 80px;
+  font-weight: 300;
+}
+
+.company .company-down .company-down-cont .company-down-bl>p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.company .company-down .company-down-cont .company-down-bl>span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.our-work {
+  width: 100%;
+  height: 250vh;
+  background: url("../img/bg/black-wheel.png") center center no-repeat;
+}
+
+.our-work .company-head {
+  padding-top: 150px;
+  color: #fff;
+}
+
+.our-work .company-head>h1 {
+  margin-left: 15%;
+}
+
+.our-work-cont {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.our-work-cont .our-work-bl {
+  margin: 0 20px;
+  color: #fff;
+}
+
+.our-work-cont .our-work-bl>p {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.our-work-cont .our-work-bl>span {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.contact {
+  width: 100%;
+  height: 110vh;
+  padding: 0 20%;
+  background: url("../img/bg/wheels.png") center center no-repeat;
+}
+
+.contact .contact-head {
+  padding-top: 150px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .contact-head>h1 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.contact .contact-content {
+  margin-top: 30px;
+}
+
+.contact .contact-content .feedback {
+  padding: 2% 5%;
+  width: 70%;
+  border: 1px solid #fff;
+}
+
+.contact .contact-content .feedback .feedback-head {
+  color: #fff;
+}
+
+.contact .contact-content .feedback .feedback-head>h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.contact .contact-content .feedback .inp {
+  margin-top: 50px;
+}
+
+.contact .contact-footer {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.input {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 268px;
+  height: 50px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+.label {
+  margin-top: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  margin-top: 10px;
+  width: 468px;
+  height: 146px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  padding: 0 20px;
+  resize: none;
+  font-size: 18px;
+}
+
+.btn {
+  margin-top: 30px;
+  width: 185px;
+  height: 60px;
+  border-radius: 30px;
+  background: #000;
+  border: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ml {
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button,
+.button2 {
+  display: block;
+}
+
+.overlay,
+.overlay2 {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bg {
+  padding: 10%;
+  width: 940px;
+  height: 70vh;
+  background-size: 100%;
+  background: url("../img/bg/wh.png") center left no-repeat;
+}
+
+.bg2 {
+  padding: 10%;
+  width: 940px;
+  height: 90vh;
+  background-size: 100%;
+  background: url("../img/bg/wh.png") center left no-repeat;
+}
+
+.flex {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup__h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.close-popup,
+.close-popup2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+
+.close-popup:before,
+.close-popup2::before {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  height: 1px;
+  width: 20px;
+  top: 11px;
+  left: -4px;
+  transform: rotate(-45deg);
+}
+
+.close-popup:after,
+.close-popup2::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  height: 1px;
+  width: 20px;
+  top: 11px;
+  transform: rotate(45deg);
+  left: -4px;
+}
+
+
+
+.account {
+  padding-top: 150px;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/bg/wheels.png") center center no-repeat;
+}
+
+
+.account .account-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.account .account-head>h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.account .account-content {
+  display: flex;
+  justify-content: center;
+}
+
+.account .account-content-bl {
+  margin-left: 30px;
+}
+
+.account .account-content-bl>h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.account .account-content-bl-cont {
+  margin-top: 40px;
+}
+
+.account .account-content-bl-cont a {
+  text-align: center;
+  color: #fff;
+}
+
+.account .account-conent-main {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  padding: 2% 5%;
+  border: 1px solid #fff;
+}
+
+.account .acc-con-bl-co {
+  display: flex;
+}
+
+.account .account-content-bl-cont-b span {
+  color: #788293;
+  line-height: 150%;
+}
+
+.account .account-content-bl-cont-b p {
+  color: #fff;
+  line-height: 150%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.account .bl-acc-con {
+  text-align: center;
+  color: #fff;
+}
+
+.account .bl-acc-con>h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.account .bl-acc-con>p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.account .bl-acc-con>button {
+  width: 216px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.account .bl-acc-con>a {
+  color: #fff;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* img {
+	width: 100%;
+} */
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .mob {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    margin-top: -30px;
+    display: block;
+    height: 200vh;
+    background-color: #22282E;
+  }
+
+  .about-us-figure .about-us-figure-content {
+    display: block;
+    text-align: center;
+  }
+
+  .about-us-figure-content-bl {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about-us-figure .about-us-figure-content .about-us-figure-content-bl {
+    width: 100%;
+  }
+
+  .slide {
+    display: block;
+  }
+
+  .information {
+    height: 110vh;
+  }
+
+  .information .information-content .information-content-bl {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  footer {
+    width: 100%;
+    height: 100%;
+    padding: 2% 0;
+  }
+
+  footer .footer-content {
+    display: block;
+  }
+
+  footer .footer-content-bl {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .service .service-content {
+    display: block;
+  }
+
+  .service {
+    padding-bottom: 20px;
+  }
+
+  .service .blocks {
+    margin: 5% 10%;
+    width: 80%;
+  }
+
+  .company .company-content-up {
+    display: block;
+  }
+
+  .company .company-content-up .company-content-up-txt {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .company {
+    height: 260vh;
+    background-color: #000;
+  }
+
+  .our-work-cont {
+    display: block;
+  }
+
+  .our-work {
+    height: auto;
+    background-color: #000;
+    padding: 20px 0;
+  }
+
+  .contact {
+    padding: 0 5%;
+  }
+
+  .contact .contact-content .feedback,
+  .contact .contact-footer {
+    width: 100%;
+  }
+
+  .account .account-content {
+    display: block;
+  }
+
+  .account .account-conent-main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .account .bl-acc-con {
+    width: 100%;
+  }
+}
+
+/* Гамбургер иконка */
+.menu-btn {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.menu-btn .bar {
+  width: 30px;
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 4px;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.menu-btn .bar:nth-of-type(2) {
+  top: calc(50% - 9px);
+}
+
+.menu-btn .bar:nth-of-type(3) {
+  top: calc(50% + 9px);
+}
+
+/* Меняем гамбургер иконку, когда меню открыто */
+.menu-btn.active .bar:nth-of-type(1) {
+  display: none;
+}
+
+.menu-btn.active .bar:nth-of-type(2) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(45deg);
+}
+
+.menu-btn.active .bar:nth-of-type(3) {
+  top: 50%;
+  transform: translate(-50%, 0%) rotate(-45deg);
+}
+
+/* Меню, которое будет появляться */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  padding: 5%;
+  background: #22282E;
+  transform: translateX(100%);
+  transition: transform 0.5s;
+}
+
+.nav.active {
+  transform: translateX(0);
+}
+
+.nav .nav__list_item {
+  list-style-type: none;
+}
+
+.nav .nav__list_item>a {
+  color: #fff;
+  line-height: 200%;
+}
+
+/*# sourceMappingURL=style.css.map */
